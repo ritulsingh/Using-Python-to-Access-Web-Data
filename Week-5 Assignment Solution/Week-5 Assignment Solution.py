@@ -25,3 +25,9 @@ for item in count:
 
 print('Count:', total_number)
 print('Sum:', sum)
+
+# Enter location: http://py4e-data.dr-chuck.net/comments_383956.xml
+# Retrieving http://py4e-data.dr-chuck.net/comments_383956.xml
+# Retrieved 4203 characters
+# Count: 50
+# Sum: 2542
