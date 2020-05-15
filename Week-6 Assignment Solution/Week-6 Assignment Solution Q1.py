@@ -18,7 +18,6 @@ print('Retrieved', len(xml), 'characters')
 
 info = json.loads(xml)
 for item in info["comments"]:
-	
 	number = int(item["count"])
 	count = count + number
 print (count)
