@@ -1,7 +1,7 @@
 # Using-Python-to-Access-Web-Data
 This is repository all about the solution of "Using Python to Access Web Data " in coursera assignment.
 
-# Week 2 Finding Numbers in a Haystack
+## Week 2 Finding Numbers in a Haystack
 
 In this assignment you will read through and parse a file with text and numbers. You will extract all the numbers in the file and compute the sum of the numbers.
 
@@ -24,7 +24,7 @@ The sum for the sample text above is 27486. The numbers can appear anywhere in t
 Handling The Data
 The basic outline of this problem is to read the file, look for integers using the re.findall(), looking for a regular expression of '[0-9]+' and then converting the extracted strings to integers and summing up the integers.
 
-# Week 3 Exploring the HyperText Transport Protocol
+## Week 3 Exploring the HyperText Transport Protocol
 
 You are to retrieve the following document using the HTTP protocol in a way that you can examine the HTTP Response headers.
 
@@ -55,7 +55,7 @@ Content-Type:
 text/plain
 
 
-# Week 4 Scraping Numbers from HTML using BeautifulSoup
+## Week 4 Scraping Numbers from HTML using BeautifulSoup
 In this assignment you will write a Python program similar to http://www.py4e.com/code3/urllink2.py. The program will use urllib to read the HTML from the data files below, and parse the data, extracting numbers and compute the sum of the numbers in the file.
 
 We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
@@ -66,7 +66,7 @@ Actual data: http://py4e-data.dr-chuck.net/comments_383954.html (Sum ends with 2
 
 You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
 
-# Week 5 Extracting Data from XML
+## Week 5 Extracting Data from XML
 
 In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/geoxml.py. The program will prompt for a URL, read the XML data from that URL using urllib and then parse and extract the comment counts from the XML data, compute the sum of the numbers in the file.
 
@@ -77,3 +77,13 @@ Sample data: http://py4e-data.dr-chuck.net/comments_42.xml (Sum=2553)
 Actual data: http://py4e-data.dr-chuck.net/comments_383956.xml (Sum ends with 42)
 
 You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.                                                                                     
+## Week 6 Extracting Data from JSON
+
+In this assignment you will write a Python program somewhat similar to http://www.py4e.com/code3/json2.py. The program will prompt for a URL, read the JSON data from that URL using urllib and then parse and extract the comment counts from the JSON data, compute the sum of the numbers in the file and enter the sum below:
+We provide two files for this assignment. One is a sample file where we give you the sum for your testing and the other is the actual data you need to process for the assignment.
+
+Sample data: http://py4e-data.dr-chuck.net/comments_42.json (Sum=2553)
+
+Actual data: http://py4e-data.dr-chuck.net/comments_383957.json (Sum ends with 31)
+
+You do not need to save these files to your folder since your program will read the data directly from the URL. Note: Each student will have a distinct data url for the assignment - so only use your own data url for analysis.
